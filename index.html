@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="select">
+            <div class="select-custom ">
+                <select onchange="weatherData()" id="select-city" name="select-city">
+                    <option value="tashkent">Tashkent</option>
+                    <option value="andijon">Andijon</option>
+                    <option value="namangan">Namangan</option>
+                    <option value="sirdaryo">Sirdaryo</option>
+                    <option value="kashkadarya">Qashqadaryo</option>
+                    <option value="khorezm">Xorazm</option>
+                    <option value="navoiy">Navoiy</option>
+                    <option value="buxoro">Buxoro</option>
+                    <option value="fergana">Farg&#39;ona</option>
+                </select>
+            </div>
+        </div>
+        <div class="container">
+            <div class="top">
+                <div class="location">
+                    <p>Tashkent</p>
+                </div>
+                <div class="temp">
+                    <h1>37°F</h1>
+                </div>
+                <div class="description">
+                    Clouds
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="feels">
+                    <p class='bold'>32°F</p>
+                    <p>Feels Like</p>
+                </div>
+                <div class="humidity">
+                    <p class='bold'>81%</p>
+                    <p>Humidity</p>
+                </div>
+                <div class="wind">
+                    <p class='bold'>7 MPH</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+            <div class="future">
+
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
